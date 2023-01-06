@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+/* header style */
+.header{
+    background-image: url(images/banner/banner3.png);
+    position: absolute;
+    width: 1600px;
+    height: 808px;
+    left: 0px;
+    top: 0px;
+
+}
+/* .header-bigtext-area{
+    margin: 216px 230px 364px 900px;
+    position: absolute;
+    height:50px ;
+    width: 300px;
+    text-align: right;
+} */
+.header-bigtext{
+    
+    color: white;
+}
+.primary-text{
+
+}
+/* .primary-text-area{
+    margin: 580px 230px 262px 880px;
+
+
+} */
+.primary-button{
+
+}
