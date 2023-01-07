@@ -4,13 +4,10 @@
     
 }
 /* header style */
-.banner{
-     
-}
+
 .header{
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
-    /* position: absolute; */
     width: 1600px;
     height: 808px;
     left: 0px;
@@ -40,15 +37,10 @@
     font-size: 10px;
     text-align: right;
     padding-left:  1000px;
-    /* padding-right: 100px; */
     padding-top: 60px;
-    /* padding-bottom: 30px; */
 }
 .button{
     padding-left:1230px ;
-    /* padding-top:30px ; */
-    /* height: 64px;
-    width: 160px; */
     border-radius: 10px;
 }
 
@@ -58,9 +50,10 @@
     height: 40px;
     width: 120px;
     border-radius: 5px;
-    border-color: rgb(255, 255, 255)
-
-
+    border: none;
+}
+primary-button-text.{
+    font-weight: 700;
 }
 /* my failures of previous year */
 
@@ -91,10 +84,7 @@
     color: #444343;
     padding-bottom: 50px;
 }
-.photo{
-   
-    
-}
+
 .failure-description, ul{
     list-style:none ;
     text-align: left;
@@ -111,14 +101,10 @@ ul {
 .my-plan-box{
 
 }
-/* .myplan-title{
-    font size: 100px;
-    font-weight: 700;
-    text-align: center;
-} */
 .plan-title{
-    text-align: center;
+    padding-left: 700px;
     font-size: 40px;
+    font-weight: bold;
 }
 .my-planlist{
     padding-top: 50px;
@@ -126,6 +112,11 @@ ul {
     padding-right: 220px;
     padding-bottom: 130px;
     display: flex;
+    
+}
+.my-plan-box h3{
+    font-weight:bold;
+    
     
 }
 .web{
@@ -158,31 +149,19 @@ ul {
 }
 /* bottom image style */
 .bottom-img{
-    /* background-image: url(images/watch.png); */
-    /* background-image:
-    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('images/background.jpg'); */
-    /* padding-left:230px ;
-    background-repeat: no-repeat;
-    background-size: 400;
-    background-position: center;
-    padding-top: 100px;
-    padding-bottom: 100px; */
-    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-    border-radius: 8px; */
-
+  
     background-image:
     linear-gradient(to right, #005FAC, rgba(255, 255, 255, 0)),
     url('images/watch.png');
     width: 1100px;
-    height: 300px;
+    height: 200px;
     background-size:cover ;
     color: white;
-    padding-left: 190px;
     padding-top: 100px;
     padding-bottom: 100px;
     background-position: center ;
     background-repeat: no-repeat;
+    margin-left: 200px;
 }
 .photo-title{
     font-weight: 700;
@@ -191,8 +170,79 @@ ul {
     height: 50px;
     width: 500px;
     padding-bottom: 60px;
-    padding-left: 190px;
+    padding-left: 120px;
     
 
 }
+
+.bottom-button{
+    color: #005fac;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 120px;
+    border: none;
+
+}
+/* footer style */
+.footer{
+    background-color: black;
+    color: white;
+    width: 1600px;
+    height: 500px;
+    margin-top: 130px;
+    display: flex ;
+    
+
+}
+.footer-alltext{
+    padding-left: 130px;
+    padding-top:130px ;
+    padding-bottom: 130px;
+    width: 550px;
+}
+
+.footer-alltext h1{
+    padding-bottom: 10px;
+}
+.footer-alltext p{
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+.icons{
+    display: flex;   
+}
+.icons img{
+    margin-right: 10px;
+}
+.footer-right{
+    padding-left: 330px;
+    padding-top: 130px;
+}
+.subs-btn{ 
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    background-color: #005fac;
+    color: white;
+    border-radius: 5px;
+    
+}
+.footer-right h4{
+    padding-bottom: 15px;
+}
+.footer-right input{
+    background-color: none;
+    border-color: white;
+    border-radius: 7px;
+    background:none;
+    border-style: solid ;
+    height: 30px;
+    width: 200px;
+
+
+}
+
+
+
 
