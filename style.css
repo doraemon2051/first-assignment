@@ -54,6 +54,7 @@
 }
 primary-button-text.{
     font-weight: 700;
+    
 }
 /* my failures of previous year */
 
@@ -154,7 +155,7 @@ ul {
     linear-gradient(to right, #005FAC, rgba(255, 255, 255, 0)),
     url('images/watch.png');
     width: 1100px;
-    height: 200px;
+    height: 180px;
     background-size:cover ;
     color: white;
     padding-top: 100px;
@@ -169,8 +170,8 @@ ul {
     color: white;
     height: 50px;
     width: 500px;
-    padding-bottom: 60px;
-    padding-left: 120px;
+    padding-bottom: 70px;
+    padding-left: 80px;
     
 
 }
@@ -180,7 +181,7 @@ ul {
     height: 40px;
     width: 120px;
     border-radius: 5px;
-    margin-left: 120px;
+    margin-left: 80px;
     border: none;
 
 }
@@ -239,9 +240,12 @@ ul {
     border-style: solid ;
     height: 30px;
     width: 200px;
+    padding-left: 15px;
+    opacity:0.5 ;
 
 
 }
+
 
 
 
