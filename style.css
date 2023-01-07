@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    
 }
 /* header style */
 .banner{
@@ -9,7 +10,7 @@
 .header{
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
-    position: absolute;
+    /* position: absolute; */
     width: 1600px;
     height: 808px;
     left: 0px;
@@ -22,37 +23,176 @@
     font-weight: 700;
     color: white;
     height: 100px;
-    width: 300px;
+    width: 400px;
     padding-bottom: 20px;
     text-align: right;
-    padding-left:  900px;
+    padding-left:  950px;
     padding-right: 100px;
     padding-top:200px ;
+    font-size: 50px;
+    
 
 }
 .primary-text{
-color: white;
-height: 50px;
-width: 300px;
-font-size: 10px;
-text-align: right;
-padding-left:  900px;
-padding-right: 100px;
+    color: white;
+    height: 60px;
+    width: 350px;
+    font-size: 10px;
+    text-align: right;
+    padding-left:  1000px;
+    /* padding-right: 100px; */
+    padding-top: 60px;
+    /* padding-bottom: 30px; */
 }
 .button{
-    padding-left:1100px ;
-    height: 64px;
-    width: 160px;
+    padding-left:1230px ;
+    /* padding-top:30px ; */
+    /* height: 64px;
+    width: 160px; */
     border-radius: 10px;
 }
 
 
 .primary-button{
     color: #005fac;
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 120px;
     border-radius: 5px;
     border-color: rgb(255, 255, 255)
 
 
 }
+/* my failures of previous year */
+
+.my-failure-box{
+    height: 720px;
+    width: 1080px;
+    padding-left: 200px;
+    padding-top: 130px;
+    padding-bottom:130px ;
+}
+.failure{
+    display: flex;
+}
+.failure-description{
+    padding-left: 150px;
+    padding-top: 300px;
+
+}
+.failure-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.failure-text{
+    font-size: 12px;
+    font-weight: 400;
+    height:30px ;
+    width: 320px;
+    color: #444343;
+    padding-bottom: 50px;
+}
+.photo{
+   
+    
+}
+.failure-description, ul{
+    list-style:none ;
+    text-align: left;
+    font-size: 12px
+}
+ul {
+  list-style-image: url('images/check3.png');
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+/* my plan style */
+
+.my-plan-box{
+
+}
+/* .myplan-title{
+    font size: 100px;
+    font-weight: 700;
+    text-align: center;
+} */
+.plan-title{
+    text-align: center;
+    font-size: 40px;
+}
+.my-planlist{
+    padding-top: 50px;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-bottom: 130px;
+    display: flex;
+    
+}
+.web{
+    padding-right: 100px;
+    text-align: center;
+    height: 200px;
+    width: 210px;
+
+}
+.js{
+    padding-right: 100px;
+    text-align: center;
+    height: 200px;
+    width: 210px;
+
+}
+.smoke{
+    padding-right: 100px;
+    text-align: center;
+    height: 200px;
+    width: 210px;
+
+}
+.ecom{
+    padding-right: 100px;
+    text-align: center;
+    height: 200px;
+    width: 210px;
+
+}
+/* bottom image style */
+.bottom-img{
+    /* background-image: url(images/watch.png); */
+    /* background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg'); */
+    /* padding-left:230px ;
+    background-repeat: no-repeat;
+    background-size: 400;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px; */
+    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px; */
+
+    background-image:
+    linear-gradient(to right, #005FAC, rgba(255, 255, 255, 0)),
+    url('images/watch.png');
+    width: 1100px;
+    height: 300px;
+    background-size:cover ;
+    color: white;
+    padding-left: 190px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+.photo-title{
+    font-weight: 700;
+    font-size: 40px; 
+    color: white;
+    height: 50px;
+    width: 500px;
+    padding-bottom: 60px;
+    padding-left: 190px;
+    
+
+}
+
